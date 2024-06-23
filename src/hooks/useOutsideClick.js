@@ -21,3 +21,5 @@ export function useOnClickOutside(node, handler) {
     }
   }, [node])
 }
+
+// useOnClickOutside(node, isOpen ? toggleModal : undefined)  EXAMPLE
